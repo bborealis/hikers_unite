@@ -12,7 +12,7 @@ function gear_of_the_week_node_info() {
     'gear_of_the_week' => array(
       'name' => t('Gear of the Week'),
       'base' => 'node_content',
-      'description' => t('add gear'),
+      'description' => t('add gear to be sold this week.'),
       'has_title' => '1',
       'title_label' => t('Name of gear'),
       'help' => '',
