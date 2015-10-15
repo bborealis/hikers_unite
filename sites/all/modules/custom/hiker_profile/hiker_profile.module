@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Profile feature.
+ */
+
+include_once 'hiker_profile.features.inc';
