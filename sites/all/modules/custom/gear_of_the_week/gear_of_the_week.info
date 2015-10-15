@@ -1,0 +1,17 @@
+name = Gear of the Week
+description = allow posting of gear for sale
+core = 7.x
+package = Custom content types
+version = 7.x-1.0
+dependencies[] = basic_page
+dependencies[] = features
+dependencies[] = number
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_price
+features[field_base][] = field_reivew
+features[field_instance][] = node-gear_of_the_week-body
+features[field_instance][] = node-gear_of_the_week-field_price
+features[field_instance][] = node-gear_of_the_week-field_reivew
+features[node][] = gear_of_the_week
+project path = sites/all/modules/custom

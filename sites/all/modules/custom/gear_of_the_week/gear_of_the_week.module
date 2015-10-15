@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Gear of the Week feature.
+ */
+
+include_once 'gear_of_the_week.features.inc';
