@@ -5,6 +5,7 @@ package = Custom content types
 version = 7.x-1.0
 dependencies[] = basic_page
 dependencies[] = features
+dependencies[] = gmap_fields
 dependencies[] = list
 dependencies[] = options
 dependencies[] = text

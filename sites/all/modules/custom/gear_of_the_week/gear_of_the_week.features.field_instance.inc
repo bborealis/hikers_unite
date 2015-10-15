@@ -62,6 +62,62 @@ function gear_of_the_week_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-gear_of_the_week-field_gear_pic'.
+  $field_instances['node-gear_of_the_week-field_gear_pic'] = array(
+    'bundle' => 'gear_of_the_week',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 3,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_gear_pic',
+    'label' => 'Photo',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 0,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => -1,
+    ),
+  );
+
   // Exported field_instance: 'node-gear_of_the_week-field_price'.
   $field_instances['node-gear_of_the_week-field_price'] = array(
     'bundle' => 'gear_of_the_week',
@@ -171,6 +227,7 @@ function gear_of_the_week_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Description of gear');
   t('Enter the price');
+  t('Photo');
   t('Price');
   t('Review');
   t('Write a short review of the product.');
